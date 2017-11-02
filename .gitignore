@@ -207,3 +207,9 @@ $RECYCLE.BIN/
 Engine/\.vs/Engine/v15/Browse\.VC\.db
 
 *.ipch
+
+Engine/\.vs/Engine/v15/
+
+*.tlog
+
+*.idb
