@@ -1,2 +1,8 @@
-﻿  d3dclass.cpp
-  Engine.vcxproj -> C:\Users\Kowalski\Desktop\Engine\x64\Debug\Engine.exe
+﻿  systemclass.cpp
+  main.cpp
+  inputclass.cpp
+  graphicsclass.cpp
+  d3dclass.cpp
+  Generating Code...
+  LINK : C:\Users\Kowalski\Documents\Repos\EngineDX12\Engine\x64\Debug\Engine.exe not found or not built by the last incremental link; performing full link
+  Engine.vcxproj -> C:\Users\Kowalski\Documents\Repos\EngineDX12\Engine\x64\Debug\Engine.exe
