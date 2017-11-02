@@ -10,7 +10,7 @@
 #pragma region INCLUDES
 #include <d3d12.h>
 #include <dxgi1_4.h>
-//#include <wrl.h>
+#include <wrl.h>
 #pragma endregion
 
 class D3DClass
@@ -40,7 +40,7 @@ private:
 	ID3D12Fence* m_fence;
 	HANDLE m_fenceEvent;
 	unsigned long long m_fenceValue;
-	//Microsoft::WRL::ComPtr<ID3D12CommandSignature> mRootSignature;
+	Microsoft::WRL::ComPtr<ID3D12CommandSignature> mRootSignature;
 };
 
 #endif
