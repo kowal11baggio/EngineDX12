@@ -40,6 +40,7 @@ private:
 	ID3D12Fence* m_fence;
 	HANDLE m_fenceEvent;
 	unsigned long long m_fenceValue;
+	Microsoft::WRL::ComPtr<ID3D12CommandSignature> mRootSignature;
 };
 
 #endif
